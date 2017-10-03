@@ -10,6 +10,9 @@ ALWAYS_SEARCH_USER_PATHS = NO
 // Architectures to build
 ARCHS = $(ARCHS_STANDARD)
 
+CLANG_ENABLE_CODE_COVERAGE = NO
+GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = NO
+
 // Whether to warn when a floating-point value is used as a loop counter
 CLANG_ANALYZER_SECURITY_FLOATLOOPCOUNTER = YES
 
